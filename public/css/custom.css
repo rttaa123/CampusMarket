@@ -1,0 +1,127 @@
+body {
+  background: #f7f8fa;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: #fff;
+  transition: box-shadow 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+}
+
+.card-title, .card_title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.card_price {
+  color: #e74c3c;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card_time {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.card_vr {
+  border-top: 1px solid #f0f0f0;
+  margin-top: 8px;
+  padding-top: 4px;
+}
+
+.goods_list {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s;
+  background: #fff;
+}
+.goods_list:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+.goods_img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+}
+
+.eye, .reply {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.alert-info {
+  background: #eaf6ff;
+  color: #31708f;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn, .btn-primary, .btn-outline-success {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.btn:hover, .btn-primary:hover, .btn-outline-success:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.nav-link {
+  color: #555;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 8px 16px;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-link.active, .nav-link:hover {
+  background: #eaf6ff;
+  color: #31708f;
+}
+
+.hot {
+  color: #e67e22 !important;
+}
+.new {
+  color: #3498db !important;
+}
+
+.input-group, .form-inline {
+  margin-bottom: 12px;
+}
+
+.form-control, .custom-select {
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.card_box {
+  padding: 16px;
+  background: transparent;
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+}
+
+.card_div {
+  padding-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .card, .goods_list {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+  .card_box {
+    padding: 8px;
+  }
+}
