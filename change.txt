@@ -1,0 +1,6 @@
+打开项目的 package.json 文件，找到 scripts 中的 development 命令，修改为：
+json：
+"scripts": {
+  "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+  "dev": "npm run development"
+}
